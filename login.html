@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(45deg, #FFA726, #FB8C00);
+      background-size: 400% 400%;
+      animation: gradientAnimation 10s infinite;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .login-container {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .login-container h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .input-container input {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .input-container a {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0 20px; /* Proper spacing between buttons */
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .input-container button {
+      width: 100%;
+
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .input-container button:hover {
+      background-color: #45a049;
+    }
+
+    .register-button {
+      padding: 15px;
+      width: 100%;
+      background-color: #4285F4;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin: 10px 0; /* Proper spacing between buttons */
+    }
+
+    .register-button:hover {
+      background-color: #1e40af;
+    }
+
+    .login-with-google {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 0; /* Proper spacing between buttons */
+    }
+
+    .login-with-google button {
+      padding: 15px;
+      width: 100%;
+      border: none;
+      background-color: #4caf50;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .google-logo {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+<div class="login-container">
+  <h1>Welcome Back</h1>
+  <div class="input-container">
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <a href="index.html"><button>Login</button></a>
+  </div>
+  <div class="login-with-google">
+    <button>
+      <i class="fab fa-google google-logo"></i>
+      Login with Google
+    </button>
+  </div>
+  <a href="register.html"><button class="register-button">Register User</button></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.social-login {
+    text-align: center;
+}
+
+.social-login a {
+    color: #000;
+    text-decoration: none;
+}
+
+.social-login a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+}

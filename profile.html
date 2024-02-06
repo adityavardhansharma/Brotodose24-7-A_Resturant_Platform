@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- custom css file cdn link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo"> <i class="fas fa-utensils"></i> Brotdose 24*7 </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="searchBox">
+            <label for="searchBox" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <a href="profile.html"> <div class="fas fa-user" id="login-btn"></div></a>
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <label class="switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <nav class="navbar">
+
+            <a href="#home">home</a>
+            <a href="#packages">Our Food</a>
+            <a href="#services">Subscriptions</a>
+            <a href="#pricing">Booking</a>
+            <a href="#review">Contact Us</a>
+
+        </nav>
+    </header>
+</head>
+<body>
+
+<section class="pricing " id="pricing">
+    <h1 class="heading"><span>Profile</span> </h1>
+    <h1 class="heading"><span>Profile</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box"  data-aos="zoom-in-up">
+            <h3> ADITYA VARDHAN SHARMA </h3>
+            <br>
+            <br>
+            <img class="profile-picture" src="images/pic.jpg" alt="">
+            <ul>
+                <li><b>Subscrition: </b>3 Meal Plan</li>
+                <li><b>Phone Number: </b>1234567890</li>
+                <li><b>Address: </b>H.no 50 New Delhi, Gujrat</li>
+                <li><b>Pincode: </b>123456</li>
+                <li><b>BroCoins: </b>2000</li>
+            </ul>
+           <a href="index.html"><input type="Submit" value="Sign Out" class="btn"></a>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+
+    AOS.init({
+        duration:100,
+        delay:0
+    });
+
+</script>
+</body>
+</html>
